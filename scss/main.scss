@@ -5,28 +5,28 @@ $webfonts-roboto-settings: (
         font-family: 'Roboto',
         base-names: (
                 100: (
-                        normal: roboto-thin,
-                        italic: roboto-thinitalic
+                        normal: roboto-thin-webfont,
+                        italic: roboto-thinitalic-webfont
                 ),
                 300: (
-                        normal: roboto-light,
-                        italic: roboto-lightitalic
+                        normal: roboto-light-webfont,
+                        italic: roboto-lightitalic-webfont
                 ),
                 400: (
-                        normal: roboto-regular,
-                        italic: roboto-italic
+                        normal: roboto-regular-webfont,
+                        italic: roboto-italic-webfont
                 ),
                 500: (
-                        normal: roboto-medium,
-                        italic: roboto-mediumitalic
+                        normal: roboto-medium-webfont,
+                        italic: roboto-mediumitalic-webfont
                 ),
                 700: (
-                        normal: roboto-bold-webfont,
-                        italic: roboto-bolditalic
+                        normal: roboto-bold-webfont-webfont,
+                        italic: roboto-bolditalic-webfont
                 ),
                 900: (
-                        normal: roboto-black,
-                        italic: roboto-blackitalic-webfont
+                        normal: roboto-black-webfont,
+                        italic: roboto-blackitalic-webfont-webfont
                 ),
         )
 ) !default;
@@ -54,7 +54,7 @@ $webfonts-roboto-include: (
 
           @font-face {
             font-family: $font-family;
-            src: url('#{$roboto-font-path}#{$base-name}roboto-bold.eot');
+            src: url('#{$roboto-font-path}#{$base-name}.eot');
             src: url('#{$roboto-font-path}#{$base-name}.eot?#iefix') format('embedded-opentype'),
             url('#{$roboto-font-path}#{$base-name}.woff2') format('woff2'),
             url('#{$roboto-font-path}#{$base-name}.woff') format('woff'),
